@@ -1,0 +1,71 @@
+    #alldiv {
+        font-family: arial;
+        background-color: rgb(255, 253, 255);
+        border-radius: 20px;
+        overflow: hidden;
+        border: 1px solid #000000;
+        margin-left: 37.5%;
+        margin-right: 37.5%;
+        box-shadow: 0 0 22px 10px rgba(0, 0, 0, 0.18);
+    }
+    #foto{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: white;
+    }
+    .cabecera {
+        text-align: center;
+        color: white;
+        padding: 15px;
+        border-radius: 15px 15px 0 0;
+        background: linear-gradient(
+        135deg,
+        #1a6e21 0%,
+        #01fc01 50%,
+        #018818 100%
+        );
+    }
+    #intro {
+        text-align: center;
+        color: black;
+        padding: 15px;
+    }
+    .contenido {
+        text-align: center;
+        background-color: lightgray;
+        padding: 10px;
+        border-radius: 0 0 15px 15px;
+    }
+    #cocoloco {
+        text-align: justify;
+    }
+    #contactoloco {
+        background-color: rgba(254, 165, 0, 0.507);
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        border-radius: 15px;
+    }
+    #caracteres{
+        -webkit-box-align: justify ;
+    }
+    .caracteres{ 
+        width: fit-content;
+        height: 40px;
+        border-radius: 15px 15px 15px 15px;
+        background-color: #72e084;
+        border-color: #018818;
+        border-style: solid;
+    }
+    .jujusju {
+    display: flex;
+    gap: 10px; 
+    flex-wrap: wrap;
+    }
+    .jujusju span {
+        padding: 10px 15px;
+        border: 3px solid green;
+        border-radius: 15px;
+        background-color: lightgreen;
+    }
